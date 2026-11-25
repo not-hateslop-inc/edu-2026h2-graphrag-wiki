@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="relation" for="edge" attr.name="relation" attr.type="string"/>
+  <graph edgedefault="directed">
+    <node id="2단계 인증"/>
+    <node id="EQ-01"/>
+    <node id="EQ-02"/>
+    <node id="EQ-03"/>
+    <node id="EQ-04"/>
+    <node id="HS NB14 노트북"/>
+    <node id="HS-GUEST"/>
+    <node id="HS-MN27"/>
+    <node id="HS-NB14"/>
+    <node id="SEC-01"/>
+    <node id="SEC-03"/>
+    <node id="SEC-04"/>
+    <node id="USB 반출"/>
+    <node id="생성형 AI 서비스"/>
+    <node id="외부 미팅"/>
+    <node id="운영·기획부"/>
+    <edge source="SEC-04" target="외부 미팅"><data key="relation">적용 대상</data></edge>
+    <edge source="SEC-04" target="HS-GUEST"><data key="relation">사용 네트워크</data></edge>
+    <edge source="SEC-04" target="SEC-03"><data key="relation">참조</data></edge>
+    <edge source="SEC-04" target="EQ-01"><data key="relation">참조</data></edge>
+    <edge source="SEC-04" target="HS-NB14"><data key="relation">적용 장비</data></edge>
+    <edge source="SEC-03" target="생성형 AI 서비스"><data key="relation">규정 대상</data></edge>
+    <edge source="SEC-03" target="USB 반출"><data key="relation">규정 대상</data></edge>
+    <edge source="SEC-01" target="2단계 인증"><data key="relation">요구</data></edge>
+    <edge source="SEC-01" target="운영·기획부"><data key="relation">문의처</data></edge>
+    <edge source="EQ-01" target="HS-NB14"><data key="relation">지급 모델</data></edge>
+    <edge source="EQ-01" target="운영·기획부"><data key="relation">담당 부서</data></edge>
+    <edge source="EQ-02" target="HS-MN27"><data key="relation">지급 모델</data></edge>
+    <edge source="EQ-02" target="운영·기획부"><data key="relation">담당 부서</data></edge>
+    <edge source="EQ-03" target="HS-NB14"><data key="relation">반납 대상</data></edge>
+    <edge source="EQ-03" target="HS-MN27"><data key="relation">반납 대상</data></edge>
+    <edge source="EQ-03" target="EQ-01"><data key="relation">참조</data></edge>
+    <edge source="EQ-04" target="HS-NB14"><data key="relation">수리 대상</data></edge>
+    <edge source="EQ-04" target="운영·기획부"><data key="relation">접수처</data></edge>
+    <edge source="HS NB14 노트북" target="운영·기획부"><data key="relation">담당 부서</data></edge>
+  </graph>
+</graphml>

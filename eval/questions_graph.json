@@ -1,0 +1,50 @@
+[
+ {
+  "id": "f1",
+  "type": "사실",
+  "question": "외부 미팅에서 어떤 와이파이를 써야 해?",
+  "answer_contains": "HS-GUEST"
+ },
+ {
+  "id": "f2",
+  "type": "사실",
+  "question": "HS-MN27은 몇 대 있어?",
+  "answer_contains": "30"
+ },
+ {
+  "id": "f3",
+  "type": "사실",
+  "question": "비밀번호 변경 주기는?",
+  "answer_contains": "90"
+ },
+ {
+  "id": "r1",
+  "type": "관계",
+  "question": "SEC-04가 바뀌면 영향을 받는 문서는?",
+  "answer_contains": "SEC-03"
+ },
+ {
+  "id": "r2",
+  "type": "관계",
+  "question": "HS-NB14와 관련된 규정을 모두 알려줘",
+  "answer_contains": "EQ-04"
+ },
+ {
+  "id": "r3",
+  "type": "관계",
+  "question": "운영·기획부가 담당하는 문서는 뭐야?",
+  "answer_contains": "EQ-02"
+ },
+ {
+  "id": "s1",
+  "type": "전체 요약",
+  "question": "장비 관련 공통 규칙을 정리해 줘",
+  "answer_contains": "3일"
+ },
+ {
+  "id": "s2",
+  "type": "전체 요약",
+  "question": "사내 가이드 전체에서 반복되는 주제는?",
+  "answer_contains": "보안"
+ }
+]
